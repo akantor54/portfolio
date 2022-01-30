@@ -9,8 +9,8 @@ const Projet = () => {
                     <div className='lador'>
                         <img className='image' src={lador}/>
                         <p>Projet html/css</p>
-                        <a href="https://github.com/akantor54/agence-ledor" className='btn'>Source</a>
-                        <a href="https://akantor54.github.io/agence-ledor/" className='btn'>site</a>
+                        <a href="https://github.com/akantor54/agence-ledor"  target="_blank" className='btn'>Source</a>
+                        <a href="https://akantor54.github.io/agence-ledor/" target="_blank" className='btn'>site</a>
                     </div>
                 </div>
             </div>

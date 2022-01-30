@@ -15,7 +15,7 @@ const Nav = () => {
         
           <ul id="menu">
             <div className="haut">
-              <a className="secondaire github" href="https://github.com" target="_blank"><i className="git fab fa-github fa-2x"></i></a>
+              <a className="secondaire github" href="https://github.com/akantor54" target="_blank"><i className="git fab fa-github fa-2x"></i></a>
               <NavLink className="nav-item nav-home home" to="/"><i className="fas fa-power-off fa-lg"></i></NavLink>
               <NavLink className="nav-item principal nav-about" to="/about"><li>a propos</li></NavLink>
             </div>
