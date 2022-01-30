@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.72a69e90.css",
+    "main.js": "/portfolio/static/js/main.086d352e.js",
+    "static/media/lador.JPG": "/portfolio/static/media/lador.267605800cf80f12b72d.JPG",
+    "static/media/logo.png": "/portfolio/static/media/logo.3c897313219702c2fd12.png",
+    "index.html": "/portfolio/index.html",
+    "main.72a69e90.css.map": "/portfolio/static/css/main.72a69e90.css.map",
+    "main.086d352e.js.map": "/portfolio/static/js/main.086d352e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72a69e90.css",
+    "static/js/main.086d352e.js"
+  ]
+}
