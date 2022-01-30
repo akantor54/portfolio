@@ -2,13 +2,12 @@
     .checkbox{
         display: none;
     }
-
     .nav-item{
         text-decoration: none;
         
         font-size: 1.5rem;
         &:hover{
-            color:blue 
+            color:blue;    
         }
     }
     .menut{
@@ -35,6 +34,7 @@
     
         .reseau{
             margin: 0.5rem;
+            
             i{
                 margin: 0.2rem;
             }
@@ -73,21 +73,20 @@
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent; 
       -moz-text-fill-color: transparent;
-
+    
+        
     }
 }
 
 @media (max-width: 600px){
-     .menut{
-       width: 100vw;
-     }
+     
 #menuToggle
 {
-  width: 50px;
   display: block;
   position: relative;
   top: 50px;
   left: 50px;
+  width: 50px;
   z-index: 1;
   
   -webkit-user-select: none;
@@ -106,6 +105,7 @@
 {
   color: tomato;
 }
+
 
 #menuToggle input
 {
@@ -167,6 +167,7 @@
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
+
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
@@ -175,8 +176,7 @@
 #menu
 {
   position: absolute;
-  width:80vw;
-  height: 100vh;
+  width:100vw;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
@@ -184,7 +184,6 @@
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
@@ -201,10 +200,6 @@
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
-
-.nav-item:onclick{
-  color:red
 }
 
 .home{
