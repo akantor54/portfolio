@@ -5,6 +5,7 @@ import Logo from './components/Logo';
 import About from './components/About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Projet from './components/Projet';
 
 const app = () => {
     return (
@@ -13,10 +14,10 @@ const app = () => {
                 <Nav/>
                 <Routes>
                     <Route exact path="/about" element={<About/>} />
-                    <Route exact path="/projet" element={<h1>projets</h1>} />
+                    <Route exact path="/projet" element={<Projet/>} />
                     <Route exact path="/skills" element={<Skills/>} />
                     <Route exact path="/contact" element={<Contact/>} />
-                    <Route  exact path="/" element={<Logo/>} />
+                    <Route exact path="/" element={<Logo/>} />
                 </Routes>
             </BrowserRouter >
         </div>

@@ -1,27 +1,21 @@
 
 
-h2{
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
 .skill{
-    background-color: black;
     border:1px solid rgb(255, 254, 254);
     box-shadow: 1px 10px 20px rgba(37, 37, 37, 0.363);
     padding:20px;
-    width: 500px;
+
     color: white;
-    
-    position: absolute; 
-    top: 50%; 
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -250px;
-    float: left;
-    padding:30px o;
+    background-color: rgb(7, 7, 7);
+    h2{
+        font-size: 24px;
+        margin: 10px;
+        color:white;
+        text-align: center;
+    }
     ul{
         padding-top: 30px;
+        padding:30px 10px 0;
         & > li {
             margin-bottom: 50px;
             background: #dedede;
@@ -41,20 +35,48 @@ h2{
     }
     .html5{
         width: 70%;
-        animation: html5 2s ease-in-out;
+        animation: html5 5s ease-in-out;
     }
     .js{
         width: 60%;
         animation: js 2s ease-in-out;
     }
+    @keyframes html5{
+        0% {width: 0px;}
+        100% {width: 70px;}
+    }
+    
+    @keyframes js{
+        0% {width: 0px;}
+        100% {width: 60px;}
+    }
 }
 
-@keyframes html5{
-    0% {width: 0px;}
-    100% {width: 70px;}
+@media (min-width: 600px){
+.skill{
+    width: 500px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -250px;
+    float: left;
+    padding:30px 0;
+}
 }
 
-@keyframes js{
-    0% {width: 0px;}
-    100% {width: 60px;}
+@media (max-width: 600px){
+    .content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content:center;
+    }
+    .skill{
+        position: relative;
+        padding:20px;
+        width:inherit;
+        padding:30px 0;
+    }
 }

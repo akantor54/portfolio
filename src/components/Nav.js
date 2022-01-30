@@ -3,31 +3,32 @@ import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <div className="menu">
-            <div className='haut'>
-               <div className='reseau'>
-               <a href="https://github.com/akantor54" className=" icon-git"><i className="git fab fa-github fa-2x"></i></a>
-                <a href="https://github.com/akantor54" className=" icon-git"><i className="fab fa-linkedin-in fa-2x"></i></a>
-                <a href="https://github.com/akantor54" className="icon-git"><i className="fab fa-discord fa-2x"></i></a> 
-                </div>
-                <NavLink to="/" className="nav-item principal nav-home"><i class="fas fa-power-off fa-lg"></i></NavLink> 
-
-                <NavLink to="/about" className="nav-item principal nav-about">A propos</NavLink> 
+        <nav className='menut' role="navigation">
+            <div id="menuToggle">
+          <input className="checkbox" type="checkbox" />
+          
+         
+          <span></span>
+          <span></span>
+          <span></span>
+          
+        
+          <ul id="menu">
+            <div className="haut">
+              <a className="secondaire github" href="https://github.com" target="_blank"><i className="git fab fa-github fa-2x"></i></a>
+              <NavLink className="nav-item nav-home home" to="/"><i className="fas fa-power-off fa-lg"></i></NavLink>
+              <NavLink className="nav-item principal nav-about" to="/about"><li>a propos</li></NavLink>
             </div>
-            <div className='milieu'>
-                <div className='projet'>
-                    <NavLink to="/about" className="nav-item secondaire nav-about">Projets</NavLink> 
-                </div>
-                <div className='contact'>
-                    <NavLink to="/contact" className="nav-item principal nav-about">Contact</NavLink> 
-                </div>
+            <div className="milieu">
+              <NavLink className="nav-item secondaire contact" to="/contact"><li>Contact</li></NavLink>
+              <NavLink className="nav-item principal projet" to="/projet"><li>projet</li></NavLink>
             </div>
-            <div className='bas'>
-                <div className='projet'>
-                    <NavLink to="/skills" className="nav-item secondaire nav-about">Competences</NavLink> 
-                </div>
+            <div className="bas">
+              <NavLink className="nav-item" to="/skills"><li>competence</li></NavLink>
             </div>
+          </ul>
         </div>
+      </nav>
     );
 };
 

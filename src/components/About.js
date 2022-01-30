@@ -3,9 +3,14 @@ import React from 'react';
 const About = () => {
     return (
         <div className="about">
-            <h2>Keim thomas</h2>
-            <p>Cupidatat ullamco irure irure pariatur labore commodo aute quis esse quis commodo. Nulla irure ullamco ipsum voluptate qui. Sit pariatur ea exercitation ad dolore in laborum dolore commodo aliquip tempor.
-            Occaecat officia irure minim quis officia anim tempor nulla nisi cupidatat occaecat laborum non nisi. Exercitation dolore magna proident enim consequat occaecat ad adipisicing ut. Magna tempor officia irure esse duis officia amet nisi voluptate minim eiusmod excepteur proident. Mollit culpa aute labore deserunt amet sit nisi velit qui exercitation voluptate. In quis elit proident velit minim esse proident sit eu consequat adipisicing nisi mollit non. Exercitation enim quis amet dolor consectetur laborum excepteur ipsum voluptate Lorem dolor fugiat esse.</p>
+          <div className='container'>
+          <h2>a propos</h2>
+            <p>Je m'appelle Keim thomas passionner de développement et plus particulièrement de développement web je me suis formé en autodidacte
+
+grâce au site telle que "Udemy", "Dyma" et "Openclassrooms"
+
+je peux vous aider à réaliser votre site du cahier des charges à la mise en ligne  </p>
+          </div>
         </div>
     );
 };
